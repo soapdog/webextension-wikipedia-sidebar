@@ -2,10 +2,11 @@
     "manifest_version": 2,
     "name": "wikipedia-sidebar",
     "version": "1.0",
-    "description": "Use contextual menu to search wikipedia",
+    "default_locale": "en",
+    "description": "__MSG_extensionDescription__",
     "homepage_url": "https://github.com/soapdog/webextension-wikipedia-sidebar",
     "icons": {
-        "48": "icons/border-48.png"
+        "128": "icon.png"
     },
     "background": {
         "scripts": [

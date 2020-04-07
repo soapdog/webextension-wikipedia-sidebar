@@ -1,6 +1,6 @@
 browser.contextMenus.create({
     id: "search-wikipedia",
-    title: "Search selected text on Wikipedia",
+    title: browser.i18n.getMessage("searchLabel"),
     contexts: ["selection"]
 });
 

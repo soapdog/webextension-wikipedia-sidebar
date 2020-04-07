@@ -1,0 +1,34 @@
+{
+    "extensionDescription": {
+        "message": "Search Wikipedia using contextual menu and sidebars.",
+        "description": "Description of the extension."
+    },
+    "headerLabel": {
+        "message": "Articles:",
+        "description": "header label."
+    },
+    "searchLabel": {
+        "message": "Search selected text on Wikipedia",
+        "description": "contextual menu label."
+    },
+    "apiUrl": {
+        "message": "https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=$TERM$&origin=*",
+        "description": "Localized URL for Wikipedia API.",
+        "placeholders": {
+            "term": {
+                "content": "$1",
+                "example": "javascript"
+            }
+        }
+    },
+    "articleUrl": {
+        "message": "https://en.m.wikipedia.org/?curid=$PAGEID$",
+        "description": "Localized URL for Wikipedia article.",
+        "placeholders": {
+            "pageid": {
+                "content": "$1",
+                "example": "8103"
+            }
+        }
+    }
+}

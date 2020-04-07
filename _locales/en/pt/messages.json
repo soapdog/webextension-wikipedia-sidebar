@@ -1,0 +1,34 @@
+{
+    "extensionDescription": {
+        "message": "Busque na Wikipedia usando o menu de contexto e abas laterais.",
+        "description": "Descrição da extensão."
+    },
+    "headerLabel": {
+        "message": "Artigos:",
+        "description": "Cabeçalho."
+    },
+    "searchLabel": {
+        "message": "Buscar texto selecionado na Wikipedia",
+        "description": "contextual menu."
+    },
+    "apiUrl": {
+        "message": "https://pt.wikipedia.org/w/api.php?action=query&format=json&list=search&srsearch=$TERM$&origin=*",
+        "description": "URL pra acessar a Wikipedia API.",
+        "placeholders": {
+            "term": {
+                "content": "$1",
+                "example": "javascript"
+            }
+        }
+    },
+    "articleUrl": {
+        "message": "https://pt.m.wikipedia.org/?curid=$PAGEID$",
+        "description": "URL para artigo na Wikipedia",
+        "placeholders": {
+            "pageid": {
+                "content": "$1",
+                "example": "8103"
+            }
+        }
+    }
+}
